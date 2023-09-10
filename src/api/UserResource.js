@@ -3,6 +3,7 @@ import { convertQueryParams } from "../global/global";
 import axios from "./base";
 
 const api_url = config.api_url;
+let UserResource;
 
 export default UserResource = {
     getAllProducts: () => {
